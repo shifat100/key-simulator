@@ -17,6 +17,10 @@ Perfect for automated UI testing, custom macro scripting, browser automation, an
 
 Simply include the functions in your project and call them as needed. 
 
+```javascript
+<script src="http://shifat100.github.io/key-simulator/Keysim.js"></script>
+```
+
 ### Basic Natural Key Press
 Simulates a complete key press (down -> wait 70-100ms -> up).
 

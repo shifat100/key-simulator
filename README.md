@@ -18,7 +18,7 @@ Perfect for automated UI testing, custom macro scripting, browser automation, an
 Simply include the functions in your project and call them as needed. 
 
 ```javascript
-<script src="http://shifat100.github.io/key-simulator/Keysim.js"></script>
+<script src="http://shifat100.github.io/key-simulator/Keysim-min.js"></script>
 ```
 
 ### Basic Natural Key Press

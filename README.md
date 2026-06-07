@@ -34,7 +34,7 @@ window.addEventListener('back', (event) => {
   event.preventDefault();
  simulateNaturalPress('SoftRight', 0);
 });
-'''
+```
 ### With Modifier Keys
 You can easily pass an `options` object to simulate modifier keys (`ctrl`, `shift`, `alt`, `meta`).
 

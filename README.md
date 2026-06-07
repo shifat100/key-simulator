@@ -28,7 +28,13 @@ Simulates a complete key press (down -> wait 70-100ms -> up).
 // Press the 'Enter' key
 simulateNaturalPress('Enter', 13);
 ```
-
+-----
+```javascript
+window.addEventListener('back', (event) => {
+  event.preventDefault();
+ simulateNaturalPress('SoftRight', 0);
+});
+'''
 ### With Modifier Keys
 You can easily pass an `options` object to simulate modifier keys (`ctrl`, `shift`, `alt`, `meta`).
 
